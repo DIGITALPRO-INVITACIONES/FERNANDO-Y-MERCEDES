@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DigitalPro//Boda//ES
+BEGIN:VEVENT
+UID:fernando-mercedes-20261227@digitalpro
+DTSTAMP:20261124T000000Z
+DTSTART:20261227T190000Z
+SUMMARY:Boda de Fernando y Mercedes Danitza
+LOCATION:Salón Eco Turismo de Eventos La Vendimia - Tiquipaya
+DESCRIPTION:Ceremonia religiosa a las 15:00. https://maps.app.goo.gl/WTby4srEHg4ibmgy6
+END:VEVENT
+END:VCALENDAR

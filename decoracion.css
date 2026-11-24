@@ -1,0 +1,25 @@
+/* Florales integrados y apertura de carta. */
+body{background-color:#f2e5e5;background-image:radial-gradient(ellipse at 0 30%,#c7d0b88c,transparent 48%),radial-gradient(ellipse at 100% 70%,#e4b6c568,transparent 45%)}
+#invitation{overflow:hidden;background:linear-gradient(90deg,#d7deca44,transparent 20%,transparent 80%,#e7bac744)}
+section{position:relative}section:not(.venue):not(.family):before{content:'';position:absolute;left:-160px;top:45%;width:370px;height:170px;background:url(assets/flores.png) center/contain no-repeat;transform:rotate(65deg);opacity:.48;pointer-events:none;z-index:-1}
+.story,.closing,.details,.date-section{isolation:isolate}
+.story:after,.closing:after,.date-section:after{content:'';position:absolute;right:-170px;top:8%;width:390px;height:180px;background:url(assets/flores.png) center/contain no-repeat;transform:rotate(-65deg);opacity:.55;pointer-events:none;z-index:-1}
+header{background:radial-gradient(ellipse at center,#fcf5ecb3,transparent 70%),linear-gradient(120deg,#ecd0d5,#f6eae6 50%,#d5dec8);border-bottom:1px solid #c4b5a1}
+header:after{content:'';position:absolute;right:-110px;bottom:-25px;width:430px;height:190px;background:url(assets/flores.png) center/contain no-repeat;transform:rotate(-20deg);opacity:.8;pointer-events:none}
+.family{background:linear-gradient(125deg,#d7dfc9,#e8ecdf 50%,#eedad9)}.family:before,.family:after{opacity:.65;width:380px;height:190px}
+.venue{background:linear-gradient(120deg,#d6dec8,#e9e5d8 65%,#e7cdd1)}
+.venue-photo{position:relative;padding-bottom:30px}.venue-photo .arch{position:relative;z-index:1;border:7px solid #fff8ed;box-shadow:0 0 0 2px #a6ad91,0 22px 50px #45533826}
+.photo-bouquet{display:block;position:relative;z-index:2;width:116%;max-width:none;margin:-66px 0 -15px -8%;pointer-events:none;filter:drop-shadow(0 10px 10px #34462422)}.photo-caption{font-size:35px;color:#895567}
+.date-section{background:radial-gradient(ellipse at center,#efd1d6,transparent 75%)}.details{background:radial-gradient(ellipse at center,#faefe8aa,transparent 80%)}
+#cover{background:radial-gradient(ellipse at center,#fff4ed,#e9cdd3 65%,#c5d0b9)}#cover:before{width:520px;height:210px;opacity:1;left:-100px;bottom:-35px}#cover:after{content:'';position:absolute;right:-100px;top:-50px;width:490px;height:190px;background:url(assets/flores.png) center/contain no-repeat;transform:rotate(195deg);pointer-events:none}
+#cover>h1,#cover>p,#cover>small{position:relative;z-index:1}
+#open{background:linear-gradient(135deg,#7b8a69,#adb99c);border:1px solid #7b8c68;box-shadow:0 30px 50px #4d543c40,0 2px 3px #fff8 inset;height:255px;margin-top:48px;isolation:isolate}
+.pocket{background:linear-gradient(32deg,#a8b694 0 48%,#c5cfb5 50% 100%);clip-path:polygon(0 0,50% 54%,100% 0,100% 100%,0 100%);filter:drop-shadow(0 -2px 2px #4c553b33)}
+.flap{background:linear-gradient(180deg,#d5ddc8,#a1b18b);clip-path:polygon(0 0,100% 0,50% 60%);filter:drop-shadow(0 3px 2px #36452b55);backface-visibility:visible;transition:transform 1.1s .25s}
+.letter{border:1px solid #cab7a1;background:#fff5e8;box-shadow:0 0 15px #38442826;top:7%;height:90%;padding:27px 10px;transition:transform 1.3s 1.1s;z-index:2}
+.letter:before{content:'';position:absolute;inset:8px;border:1px solid #bfa382;pointer-events:none}.letter:after{content:'27 · 12 · 2026';display:block;margin-top:15px;font-size:17px;letter-spacing:2px}
+.seal{top:40%;width:82px;height:82px;left:calc(50% - 41px);border:6px double #c99a9d;font-size:23px;background:radial-gradient(circle at 30% 20%,#e1b6b5,#9a5e72);box-shadow:0 6px 10px #3b26365c,0 0 0 3px #b97e8a;animation:sealGlow 2.5s infinite}.seal-hint{position:absolute;z-index:5;top:78%;left:0;width:100%;font-size:20px;color:#435436;letter-spacing:1px}
+@keyframes sealGlow{50%{box-shadow:0 6px 10px #3b26365c,0 0 0 8px #b97e8a33}}
+.opening .letter{transform:translateY(-130px)}.opening .seal-hint{opacity:0}.opening .flap{z-index:1}.opening .seal{animation:none}
+@media(max-width:700px){#open{height:220px;margin-top:45px}.letter{padding-top:23px}.letter b{font-size:36px}.letter{font-size:20px}.opening .letter{transform:translateY(-110px)}#cover:after{width:300px;height:120px;top:-15px;right:-80px}#cover:before{width:330px;height:140px;left:-80px;bottom:-35px}#cover h1{font-size:47px}header:after{width:300px;height:130px;right:-120px;bottom:0;opacity:.6}.photo-bouquet{margin-top:-40px;margin-bottom:0}.photo-caption{font-size:31px}section:not(.venue):not(.family):before{left:-190px;opacity:.38}.story:after,.closing:after,.date-section:after{right:-220px;opacity:.4}.family:before,.family:after{width:280px;opacity:.4}.seal{width:72px;height:72px;left:calc(50% - 36px);font-size:21px}}
+@media(prefers-reduced-motion:reduce){.seal{animation:none}.letter,.flap{transition:none}}
