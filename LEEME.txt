@@ -9,3 +9,11 @@ QR: imagen original sin modificaciones, descargable.
 Fotos: originales, ampliables.
 Sin sección de vestimenta.
 El enlace Compartir sirve para invitados una vez publicado; localhost es solo vista previa.
+
+ACTUALIZACIÓN (animaciones y fotos)
+- Nuevos archivos: animaciones.css y animaciones.js (súbelos junto con los demás).
+- Nombres que aparecen letra por letra, flores que se mecen, destellos dorados, íconos que se dibujan, entrada escalonada de cada sección.
+- Calendario de diciembre 2026 con corazón latiendo en el domingo 27.
+- Marcos de foto renovados: foto 1 en doble tarjeta con flores, foto 2 en arco con borde doble, foto 3 en ventana redondeada con flores. Las fotos se revelan al llegar a ellas; siguen siendo ampliables.
+- Cuenta regresiva en tarjetas con salto en cada cambio. Botones con brillo.
+- El botón "Animación" pausa todo y deja la invitación visible.
